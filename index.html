@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Soham Bodhak</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Welcome to my creative portfolio! Here you'll find a glimpse into
+          the diverse range of my skills and interests. I am always eager to 
+          collaborate with others and take on new challenges.Thank you for 
+          visiting my portfolio, and I look forward to creating something 
+          amazing together.
+        </p>
+        <div class="social-media">
+    <a href="#" class="tooltip-container"><i class="bx bxs-phone"></i>
+    <span class="tooltip-text">7439240524</span>
+    </a>
+         
+          <a href="mailto:bodhaksoham4884@gmail.com" ><i class="bx bxl-gmail"></i></a>
+          <a href="https://github.com/SohamBodhak"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/soham-bodhak"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="assets/cv.pdf" class="btn">Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="images/profile.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/about.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Big Data Analyst!</h3>
+        <p>
+          I'm Soham Bodhak, currently pursuing M.Sc. in Big Data Analytics from RKMVERI. 
+          With strong foundations in Python, ML/DL, and Big Data tools, I am driven by the 
+          challenge of solving real-world problems through AI and data.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- services -->
+
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Skills & Certifications</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class='bx  bx-bracket-curly'  ></i> 
+          <h3>Programming</h3>
+          <p>
+            Python,  
+               C, 
+               R, 
+             LaTeX
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class='bx  bx-book-content'  ></i> 
+          <h3>Libraries</h3>
+          <p>
+            Numpy, Scipy, Pandas, Scikit Learn, 
+            Matplotlib, OpenCV, PyTorch, Gemometric, 
+            
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+        <i class='bx  bx-grid'  ></i> 
+          <h3>Frameworks</h3>
+          <p>
+            PySpark, Hadoop, Ray
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/port1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Music Seperation</h4>
+            <p>
+              A deep learning based music source seperation project on MUSDB-18dataset.
+           Tools: PyTorch, Streamlit
+            </p>
+            <a href="https://github.com/SohamBodhak/Music_Segmentation_DL"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/port2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Movie Recommendation</h4>
+            <p>
+              Movie recommendation system using GCN,GAT, LightGCN.
+              Keywords: GCN, GAT, LightGCN
+            </p>
+            <a href="https://github.com/SohamBodhak/Movie_Recommendation_using_GNN"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/port4.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Bengali OCR</h4>
+            <p>
+              Bengali hand-written character recognition using LeNet5 and ResNet18 architectures.
+              Keywords: open-cv, LeNet, ResNet, Data pre-processing; 94.33% accuracy
+            </p>
+            <a href="https://github.com/SohamBodhak/BengaliOCR_DL"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/port5.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Rainfall trend Prediction in WB</h4>
+            <p>
+              Prediction of rainfall in West Bengal
+              based on historical weather data using ML techniques
+              Keywords: Python, Kaggle, Feature engineering, hyperparameter tuning;
+              83.5% accuracy
+            </p>
+            <a href="https://github.com/SohamBodhak/ML_notebooks/blob/main/Rainfall_in_WB.ipynb"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <div class="input-box">
+          <input type="hidden" name="access_key" value="2bd72376-6b4d-4875-9b73-474c9a08f401">
+          <input type="text" name="name" placeholder="Full Name" required/>
+          <input type="email" name="email" placeholder="Email Address" required />
+          <input type="number" name="number" placeholder="Mobile Number" required/>
+          <input type="text" name="Subject" placeholder="Email Subject" required/>
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by Soham Bodhak | All Rights Reserved|</p>
+      </div>
+
+      <div class="footer-iconTap">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+    <script>
+  function showPhoneNumber() {
+    document.getElementById("phone-number").style.display = "block";
+  }
+</script>
+
+
+  </body>
+</html>
